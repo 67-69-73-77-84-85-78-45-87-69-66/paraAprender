@@ -1,0 +1,109 @@
+/**
+Asi se comenta en CSS,
+ahora tendra la oportunidad de ver como es el diseño de cajas
+el concepto y suo de Margen(Margin) y Relleno(padding... creo :v)
+
+Tambien meti un menu un poco mas complejo pero asi toca la cosa
+Por ahora no se preocupe por entender esa parte, la base de las paginas es el bendito
+margin y padding que a veces confunde.
+**/
+*{
+	margin: 0;
+	padding: 0;
+	background-color: #B9BDFF;
+}
+
+
+	header{
+		width: 600px;
+		height: 100px;
+		border: 3px;
+		border-color: black;
+		border-style: solid;
+		margin: 10px 20% 10px 20%;
+		padding: 50px 100px 50px 100px;
+		background-color: blue;
+	}
+		header nav{
+			width: 500px;
+			height: 60px;
+			background-color: red;
+			padding: 20px 50px 20px 50px;
+			list-style: none;
+
+		}
+			header nav ul{
+				width: 300px;
+				height: 20px;
+				border:1px;
+				border-color: black;
+				border-style: solid;
+				background-color: #910CE8;
+				padding: 20px 20% 20px 20%;
+				list-style: none;
+			}
+				header nav ul li{
+					display: inline-block;
+					position: relative;
+					background-color: #910CE8;
+					padding: 0 0 0 0.1px;
+				}
+					header nav ul li a{
+						background-color: #910CE8;
+					}
+
+					header nav ul li a:hover{
+						background-color: #910CE8;
+						text-decoration: underline;
+					}
+					
+					header nav ul li ul{
+						display:none;
+						position: absolute;
+						width: auto;
+						padding:0;
+					}
+
+						header nav ul li:hover ul{
+							display: block;
+						}
+							header nav ul li ul li{
+								display: block;
+								
+							}
+								header nav ul li ul li a{
+									display: block;
+								}
+
+								header nav ul li ul li a:hover{
+									background-color: white;
+								}
+	 .title{
+		border: none;
+		border-style: none;
+		text-align: center;
+	}
+
+	section{
+		width:800;
+		height: auto;
+		margin: 20px 20% 20px 20%;
+		background:#C7DAFF;
+		border: 4px;
+		border-color: black;
+		border-radius: 10px;
+		border-style: solid;
+
+	}
+
+			section .title h1{
+				width: auto;
+				text-align: center;
+			}
+
+		section p{
+			width: 90%;
+			margin: 10px 5% 10px 5% ;
+			background:#C7DAFF;
+		}
+
